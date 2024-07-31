@@ -1,0 +1,53 @@
+#inicio {
+    width: 100%;
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.inicioApresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 150px;
+    gap: 50px;
+}
+
+.inicioApresentacao span {
+    font-size: var(--fonteParagrafo);
+}
+
+.inicioApresentacao span b {
+    color: var(--corRoxoClaro);
+}
+
+.inicioApresentacao h1 {
+    font-size: var(--fonteTitulo);
+}
+
+.inicioApresentacao h1 b {
+    color: var(--corRoxoClaro);
+    border: 1px solid var(--corBranco);
+    border-radius: 49% 51% 42% 58% / 61% 61% 39% 39%;
+    padding: 0px 20px;
+}
+
+.inicioApresentacao p {
+    font-size: var(--fonteDetalhes);
+}
+
+.inicioSobre h2 {
+    font-size: var(--fonteTitulo);
+}
+
+.inicioSobre h3 {
+    font-size: var(--fonteParagrafo);
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.inicioSobre p {
+    font-size: var(--fonteParagrafo);
+    width: 75%;
+}
